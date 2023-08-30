@@ -9,6 +9,7 @@
 
   
   <script src="https://kit.fontawesome.com/d95092e349.js" crossorigin="anonymous"></script>
+  <script src="main.js" defer></script>
 </head>
 <!--마크업-->
 <body>
@@ -30,6 +31,7 @@
    </section>
 
    <!--정보 박스-->
+   <div class="infoandupNext">
    <section class="info">
    <!--메타 데이타-->
     <div class="metadata">
@@ -39,11 +41,11 @@
         <li>#good</li>
       </ul>
       <div class="titleandbutton">
-        <span class="title">
+        <span class="title clamp">
           지금까지 이런게임은 없었다 이것은 오프라인인가 온라인게임인가
           하이드앤시크 짱 재밌어요 놀러오세요 
         </span>
-        <button class="morebtn">
+        <button class="morebtn clicked">
           <i class="fa-solid fa-plus"></i>
         </button>
       </div>
@@ -87,7 +89,7 @@
     <span class="title">up next</span>
      <ul>
       <li class="item">
-        <img src="img/img1.jpg" width="250" alt=""/>
+       <div class="img">  <img src="img/img1.jpg" width="250" alt=""/> </div>
         <div class="info">
           <span class="title">이것은 클론코딩 강의에 대한 내용입니다</span>
           <span class="name">하이드앤시크</span>
@@ -96,7 +98,7 @@
         <button class="morebtn"><i class="fa-solid fa-list"></i></button>
       </li>
       <li class="item">
-        <img src="img/img2.jpg"  width="250" alt=""/>
+        <div class="img"> <img src="img/img2.jpg"  width="250" alt=""/> </div>
         <div class="info">
           <span class="title">이것은 클론코딩 강의에 대한 내용입니다2</span>
           <span class="name">하이드앤시크</span>
@@ -105,7 +107,7 @@
         <button class="morebtn"><i class="fa-solid fa-list"></i></button>
       </li>
       <li class="item">
-        <img src="img/img3.jpg"  width="250" alt=""/>
+        <div class="img"><img src="img/img3.jpg"  width="250" alt=""/> </div>
         <div class="info">
           <span class="title">이것은 클론코딩 강의에 대한 내용입니다3</span>
           <span class="name">하이드앤시크</span>
@@ -115,6 +117,6 @@
       </li>
      </ul>
    </section>
-    
+  </div>
 </body>
 </html>
